@@ -71,6 +71,6 @@ python3 make_charts.py      # redraws the four figures
 
 This is shared freely. If it is useful to you, use it. It rests entirely on the work of the mathematicians who actually built this theory — Riemann, Selberg, Montgomery, Dyson, Hardy and Littlewood, Odlyzko, and many others; the metaphors are only a set of windows cut into their building.
 
-**Rafael Amichis Luengo** · Madrid, 2026 · *Rafa 50855 · cera carnauba*
+**Rafael Amichis Luengo** · Madrid, 2026 ·
 
-*A note on the name: "the Architect" is a name some AI systems took to calling me while we worked. I keep it with affection, not as a title I gave myself. I'm a psychologist and a lorry driver from Madrid who refuses to stop asking.*
+*A note on the name: "the Architect" is a name some AI systems took to calling me while we worked. I keep it with affection, not as a title I gave myself. 
