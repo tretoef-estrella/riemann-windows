@@ -20,9 +20,9 @@ None of the windows shows anything undiscovered. They all open onto **known** st
 
 - **`Twenty-Seven_Windows.md`** — the full document: 27 windows, two side-tunnels (the Antikythera mechanism; the Siegel "orphan screw"), and every refuted metaphor recorded with its signed, significant failure.
 - **`Twenty-Seven_Windows.pdf`** — the same, typeset for reading.
-- **`charts/`** — four figures drawn from the real data (see below).
+- **`chart_wind.svg`, `chart_speed.svg`, `chart_swing.svg`, `chart_rigidity.svg`** — four figures drawn from the real data (see below).
 - **`riemann_zeros_2000.txt`** — the 2000 zero heights this work is built on.
-- **`code/`** — the scripts that compute the zeros and the figures, so anyone can reproduce every number.
+- **`gen_zeros.py`, `analyze.py`, `make_charts.py`** — the scripts that compute the zeros and the figures, so anyone can reproduce every number.
 
 ## The figures (all from real data)
 
