@@ -21,7 +21,7 @@ None of the windows shows anything undiscovered. They all open onto **known** st
 - **`Twenty-Seven_Windows.md`** — the full document: 27 windows, two side-tunnels (the Antikythera mechanism; the Siegel "orphan screw"), and every refuted metaphor recorded with its signed, significant failure.
 - **`Twenty-Seven_Windows.pdf`** — the same, typeset for reading.
 - **`charts/`** — four figures drawn from the real data (see below).
-- **`data/riemann_zeros_2000.txt`** — the 2000 zero heights this work is built on.
+- **`riemann_zeros_2000.txt`** — the 2000 zero heights this work is built on.
 - **`code/`** — the scripts that compute the zeros and the figures, so anyone can reproduce every number.
 
 ## The figures (all from real data)
@@ -30,19 +30,19 @@ Each figure traces to a measured number in the document — nothing is decorativ
 
 **The Wind — S(t).** The tremor of the zero-count around its smooth trend, across all 2000 zeros. Standard deviation **0.2691**; it grows extraordinarily slowly with height (Selberg's signature) — never runaway, never calm.
 
-![The Wind](charts/chart_wind.svg)
+![The Wind](chart_wind.svg)
 
 **Speed Steadies the Line.** As the function spins faster up the critical line, the tremor *relative* to the spin keeps shrinking — correlation **−0.99**. The spiral steadies itself by accelerating.
 
-![Speed steadies the line](charts/chart_speed.svg)
+![Speed steadies the line](chart_speed.svg)
 
 **The Swing.** Each gap between zeros, plotted against the next: a clear downward tilt (lag-1 autocorrelation **−0.39**). The zeros repel — a turn that overshoots winds back to keep the mean. Repulsion, seen from the phase.
 
-![The Swing](charts/chart_swing.svg)
+![The Swing](chart_swing.svg)
 
 **No Margin.** Force the zeros tighter than their natural repulsion allows and the reconstruction of the primes shatters — a mere 5% squeeze multiplies the error 36×, and it is already broken; squeezing further barely changes it. The zeros have no slack: their positions are exact-or-nothing. (A visceral view of the rigidity of the explicit formula.)
 
-![No margin](charts/chart_rigidity.svg)
+![No margin](chart_rigidity.svg)
 
 ## The method, in one line
 
@@ -62,9 +62,9 @@ If it helps one student understand the primes a little better — that is enough
 
 ```bash
 pip install mpmath numpy
-python3 code/gen_zeros.py        # writes data/riemann_zeros_2000.txt (a few minutes)
-python3 code/analyze.py          # verifies the headline numbers
-python3 code/make_charts.py      # redraws the four figures
+python3 gen_zeros.py        # writes riemann_zeros_2000.txt (a few minutes)
+python3 analyze.py          # verifies the headline numbers
+python3 make_charts.py      # redraws the four figures
 ```
 
 ## Citing / using
