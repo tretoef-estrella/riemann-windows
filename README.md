@@ -4,6 +4,8 @@
 
 > **Read this first.** This is **not** a proof of the Riemann Hypothesis. It contains **nothing new** and nothing unknown to mathematicians. It is something smaller, and I hope more useful: a way *into* the theory of the prime numbers through the door of everyday intuition — every metaphor checked, byte-exact, against 2000 real zeros of the zeta function. Where an idea failed, the failure is left in the building where you can see it. The honesty is the whole point.
 
+📄 **Read the full document:** [Twenty-Seven_Windows.pdf](Twenty-Seven_Windows.pdf) (typeset for reading) · or [the plain text version](Twenty-Seven_Windows.md)
+
 ---
 
 ## What this is
@@ -18,8 +20,8 @@ None of the windows shows anything undiscovered. They all open onto **known** st
 
 ## What is inside
 
-- **`Twenty-Seven_Windows.md`** — the full document: 27 windows, two side-tunnels (the Antikythera mechanism; the Siegel "orphan screw"), and every refuted metaphor recorded with its signed, significant failure.
-- **`Twenty-Seven_Windows.pdf`** — the same, typeset for reading.
+- **[`Twenty-Seven_Windows.md`](Twenty-Seven_Windows.md)** — the full document: 27 windows, two side-tunnels (the Antikythera mechanism; the Siegel "orphan screw"), and every refuted metaphor recorded with its signed, significant failure.
+- **[`Twenty-Seven_Windows.pdf`](Twenty-Seven_Windows.pdf)** — the same, typeset for reading.
 - **`chart_wind.svg`, `chart_speed.svg`, `chart_swing.svg`, `chart_rigidity.svg`** — four figures drawn from the real data (see below).
 - **`riemann_zeros_2000.txt`** — the 2000 zero heights this work is built on.
 - **`gen_zeros.py`, `analyze.py`, `make_charts.py`** — the scripts that compute the zeros and the figures, so anyone can reproduce every number.
@@ -73,4 +75,4 @@ This is shared freely. If it is useful to you, use it. It rests entirely on the 
 
 **Rafael Amichis Luengo** · Madrid, 2026 ·
 
-*A note on the name: "the Architect" is a name some AI systems took to calling me while we worked. I keep it with affection, not as a title I gave myself. 
+*A note on the name: "the Architect" is a name some AI systems took to calling me while we worked. I keep it with affection, not as a title I gave myself.
